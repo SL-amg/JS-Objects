@@ -35,6 +35,9 @@ Task 2) Print the book’s title with its publish year. Access the book title us
 console.log(book.Title);
 console.log(book["Published Year"]);
 
+//mishary solution
+console.log(`${book.Title} - ${book["Published Year"]}`);
+
 /*****************************************************************
 Part 2: Modifying Objects
 Consider you need to update the book's information and add a new property:
