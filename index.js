@@ -96,5 +96,13 @@ console.log(book);
 //     {
 //         reviewer:"Book Critic",
 //         comment: "A comprehensive guide to JavaScript."
-//     }
+//     },
+//     {
+//         reviewer:"Mishary",
+//         comment: "awful book."
+//     },
 // ];
+
+// to sho only value of reviewer
+//console.log(book.reviews[0].reviewer); // to show value " book critic"
+//console.log(book.reviews[1].comment); // to show value " awful book "
