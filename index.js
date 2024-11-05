@@ -84,25 +84,31 @@ Task 7) Add a 'reviews' property to the 'book' object, which will store an array
         Start with one review: {reviewer: "Book Critic", comment: "A comprehensive guide to JavaScript."}.
 ******************************************************************/
 
-book.reviews = []; // to creat a new array emplty
-// console.log(book); to check my object
-book.reviews.reviewer = "Book Critic";
-// console.log(book); to check my object to this point
-book.reviews.comment = "A comprehensive guide to JavaScript.";
-console.log(book);
+
 
 // mishary solution in one step ... 
-// book.reviews= [
-//     {
-//         reviewer:"Book Critic",
-//         comment: "A comprehensive guide to JavaScript."
-//     },
-//     {
-//         reviewer:"Mishary",
-//         comment: "awful book."
-//     },
-// ];
+book.reviews= [
+    {
+        reviewer:"Book Critic",
+        comment: "A comprehensive guide to JavaScript."
+    },
+    {
+        reviewer:"Mishary",
+        comment: "awful book."
+    },
+];
 
 // to sho only value of reviewer
-//console.log(book.reviews[0].reviewer); // to show value " book critic"
-//console.log(book.reviews[1].comment); // to show value " awful book "
+console.log(book);
+console.log(book.reviews[0].reviewer); // to show value " book critic"
+console.log(book.reviews[1].comment); // to show value " awful book "
+
+
+// the solution that i did and it is not correct 
+
+// book.reviews = []; // to creat a new array emplty
+// // console.log(book); to check my object
+// book.reviews.reviewer = "Book Critic";
+// // console.log(book); to check my object to this point
+// book.reviews.comment = "A comprehensive guide to JavaScript.";
+// console.log(book);
