@@ -11,7 +11,6 @@ Use an object to model the book with the following information:
 
 Task 1) Create an object named 'book' using curly braces {} that includes the information above.
 ******************************************************************/
-
 const book = {
     Title: "JavaScript: The Definitive Guide",
     Author: "David Flanagan",
@@ -31,7 +30,6 @@ Use an object to model the book with the following information:
 - Genre: "Programming"
 Task 2) Print the book’s title with its publish year. Access the book title using dot-notation, and access the publish year using bracket-notation.
 ******************************************************************/
-
 console.log(book.Title);
 console.log(book["Published Year"]);
 
@@ -44,7 +42,6 @@ Consider you need to update the book's information and add a new property:
 Task 3) Add a property 'pageCount' with the value 1096 to the 'book' object.
 
 ******************************************************************/
-
 book.pageCount = 1096;
 console.log(book);
 
@@ -70,7 +67,6 @@ Your libary system needs to handle multiple authors and include reviews for the 
 Update the 'book' object to accommodate these requirements:
 Task 6) Modify the 'author' property to hold an array of two authors: "David Flanagan" and "Another Author".
 ******************************************************************/
-
 book.Author = ["David Flanagan", "Another Author" ];
 console.log(book);
 
@@ -84,31 +80,26 @@ Task 7) Add a 'reviews' property to the 'book' object, which will store an array
         Start with one review: {reviewer: "Book Critic", comment: "A comprehensive guide to JavaScript."}.
 ******************************************************************/
 
-
-
-// mishary solution in one step ... 
 book.reviews= [
     {
         reviewer:"Book Critic",
         comment: "A comprehensive guide to JavaScript."
     },
-    {
-        reviewer:"Mishary",
-        comment: "awful book."
-    },
 ];
 
-// to sho only value of reviewer
 console.log(book);
 console.log(book.reviews[0].reviewer); // to show value " book critic"
-console.log(book.reviews[1].comment); // to show value " awful book "
 
-
-// the solution that i did and it is not correct 
-
-// book.reviews = []; // to creat a new array emplty
-// // console.log(book); to check my object
-// book.reviews.reviewer = "Book Critic";
-// // console.log(book); to check my object to this point
-// book.reviews.comment = "A comprehensive guide to JavaScript.";
-// console.log(book);
+//to add another reviwer good example
+// book.reviews= [
+//     {
+//         reviewer:"Book Critic",
+//         comment: "A comprehensive guide to JavaScript."
+//     },
+//     {
+//         reviewer:"Mishary",
+//         comment: "awful book."
+//     },
+// ];
+// console.log(book.reviews[0].reviewer); // to show value " book critic"
+// console.log(book.reviews[1].comment); // to show value " awful book "
