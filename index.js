@@ -90,3 +90,11 @@ book.reviews.reviewer = "Book Critic";
 // console.log(book); to check my object to this point
 book.reviews.comment = "A comprehensive guide to JavaScript.";
 console.log(book);
+
+// mishary solution in one step ... 
+// book.reviews= [
+//     {
+//         reviewer:"Book Critic",
+//         comment: "A comprehensive guide to JavaScript."
+//     }
+// ];
